@@ -1,0 +1,55 @@
+C:\Users\user\source\repos\Test\Test\bin\Debug\Test.exe.config
+C:\Users\user\source\repos\Test\Test\bin\Debug\Test.exe
+C:\Users\user\source\repos\Test\Test\bin\Debug\Test.pdb
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.Main.resources
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.exe
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.pdb
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.login.resources
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.new_device.resources
+C:\Users\user\source\repos\Test\Test\bin\Debug\InTheHand.Net.Personal.dll
+C:\Users\user\source\repos\Test\Test\bin\Debug\InTheHand.Net.Personal.xml
+C:\Users\user\source\repos\Test\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\user\source\repos\Test\Test\bin\Debug\USBClassLibrary.dll
+C:\Users\user\source\repos\Test\Test\bin\Debug\USBClassLibrary.pdb
+D:\downloads\Test (2)\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\downloads\Test (2)\Test\obj\Debug\Test.login.resources
+D:\downloads\Test (2)\Test\obj\Debug\Test.Main.resources
+D:\downloads\Test (2)\Test\obj\Debug\Test.new_device.resources
+D:\downloads\Test (2)\Test\obj\Debug\Test.Properties.Resources.resources
+D:\downloads\Test (2)\Test\obj\Debug\Test.csproj.GenerateResource.cache
+D:\downloads\Test (2)\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\downloads\Test (2)\Test\obj\Debug\Test.exe
+D:\downloads\Test (2)\Test\obj\Debug\Test.pdb
+D:\downloads\Test (2)\Test\bin\Debug\Test.exe.config
+D:\downloads\Test (2)\Test\bin\Debug\Test.exe
+D:\downloads\Test (2)\Test\bin\Debug\Test.pdb
+D:\downloads\Test (2)\Test\bin\Debug\InTheHand.Net.Personal.dll
+D:\downloads\Test (2)\Test\bin\Debug\InTheHand.Net.Personal.xml
+D:\downloads\Test (2)\Test\obj\Debug\Test.csproj.CopyComplete
+D:\downloads\Test (2)\Test\obj\Debug\Test.new_device_bluetooth.resources
+D:\downloads\Smart PC Guard\Test\bin\Debug\Test.exe.config
+D:\downloads\Smart PC Guard\Test\bin\Debug\Test.exe
+D:\downloads\Smart PC Guard\Test\bin\Debug\Test.pdb
+D:\downloads\Smart PC Guard\Test\bin\Debug\InTheHand.Net.Personal.dll
+D:\downloads\Smart PC Guard\Test\bin\Debug\InTheHand.Net.Personal.xml
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.login.resources
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.Main.resources
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.new_device.resources
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.new_device_bluetooth.resources
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.Properties.Resources.resources
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.csproj.GenerateResource.cache
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.csproj.CopyComplete
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.exe
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.pdb
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.TrustInfo.xml
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.exe.manifest
+D:\downloads\Smart PC Guard\Test\bin\Debug\Test.exe.manifest
+D:\downloads\Smart PC Guard\Test\bin\Debug\Test.application
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.application
+D:\downloads\Smart PC Guard\Test\obj\Debug\Test.changePwd.resources
