@@ -27,9 +27,8 @@ while player == False:
             print("You win")
     else:
         print("Wrong input, please check your spelling")
-
     player = False
-    computer = v[randint(0,2)]
+    Computer = v[randint(0, 2)]
 
 
 
