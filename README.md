@@ -1,4 +1,4 @@
-Projects and learning done 
+# Projects and learning done 
 
-Created by kennedy joe
-kennedy0597@gmail.com
+## Created by kennedy joe
+## kennedy0597@gmail.com
