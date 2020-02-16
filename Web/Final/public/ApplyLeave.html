@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave system</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>QWERTY INTERNATIONAL PTE LTD </h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="SupervisorLogin.html">Home</a></li>
+				<li><a href="notification.html">Notifications</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+    </nav>
+    <section id="showcase">
+        
+        <div class="container">
+                <h1>Apply Medical Leave
+                </h1>
+              
+           
+        
+        </section>
+        </div>
+
+        <section id="takeleave">
+            <div class="container">
+            <p>Please input the following</p>
+            <form  name="mcdate" class="mcdate" onsubmit="validateForm()">
+                <div class="mcapp">
+                        <label>Name: </label>
+                        <input type="text" name="fname">
+                </div>
+                <div class="mcapp">
+                        <label>Email: </label>
+                        <input type="text" name="email">
+                </div>
+                <div class="mcapp">
+                        <label>Date: </label>
+                        <input type="date" name="date" >
+                </div>
+                <div>	 
+                        <label>Reason for leave</label>
+                        <textarea name="message"></textarea>
+                </div>
+                <div class="mcapp">
+                                <label>Department: </label>
+                                <select nameid=departments>
+						                        <option>Accounting</option>
+					                            <option>Human Resources</option>
+					                      	    <option>Marketing</option>
+                                                <option>Business</option>
+                                                <option>Production</option>
+                                                <option>Reasearch And Development</option>
+                                                <option>Purchasing</option>
+                                                <option>Operations</option>
+                                                <option>Others</option>
+
+						
+					</select>
+                </div>
+                <br>
+                <input type="submit" name="submit"value="submit" >
+              
+            
+            
+            
+            
+            
+            </form>
+            </div>
+            </section>
+
+
+
+
+
+
+
+
+
+        <aside id="sidebar">
+                <p>Reminder,continuous taking medical leave might result in pay cut. If your are found to be malingering,action will be taken and can result to termination. Qwerty Pte Ltd reserve the right to approve or deny any medical leave.</p>
+            </aside>
+        
+             <footer id="main-footer">
+                    <p>work in progress</p>
+                </footer>
+<script>
+                        /*function submitleave(){
+							alert("Leave submitted, please uplooad proof later.")
+						}*/
+						
+						function validateForm() {
+                            var x = document.forms["mcdate"]["fname"].value;
+                            if (x == "") {
+                                  alert("Name must be filled out");
+                                  return false;
+                                     }
+						    var x = document.forms["mcdate"]["date"].value;
+                            if (x == "") {
+                                  alert("date must be filled out");
+                                  return false;
+                                     }
+						    var x = document.forms["mcdate"]["email"].value;
+                            if (x == "") {
+                                  alert("email must be filled out");
+                                  return false;
+                                     }
+						    var x = document.forms["mcdate"]["email"].value;
+                            if (x == "") {
+                                  alert("email must be filled out");
+                                  return false;
+                                     }
+                                     }
+						</script>
+    </body>
+</html>
+    

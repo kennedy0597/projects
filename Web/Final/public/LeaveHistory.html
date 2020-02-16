@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave system</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+	<header id="main-header">
+		<div class="container">
+			<h1>QWERTY INTERNATIONAL PTE LTD </h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="SupervisorLogin.html">Home</a></li>
+				<li><a href="notification.html">Notifications</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+    </nav>
+    <section id="showcase">
+            <div class="container">
+                <h1>Leave History
+                </h1>
+              
+			</div>
+			
+		</section>
+
+
+	<div class="container">
+		<div>
+				<h2>2018 History</h2>
+				
+
+				<table id="table" border="1">
+            
+	<input type="text" id="myInput" onkeyup="searchTable()" placeholder="Enter date.." title="Type in a name">
+                   
+              <tr class="header">
+                     <th style="width:40%;">Date</th>
+                     <th style="width:30%;">Approval status</th>
+                     <th style="width:30%;">Approved by</th>
+              </tr>
+            
+        </table>
+        
+        <script>
+            
+            var array = [["050618","Approved","Bob"],
+                         ["070618","Approved","Kumar"],
+                         ["200618","Approved","Bob"],
+                         ["240618","Pending Approval",""],
+                         ],
+                table = document.getElementById("table");
+        
+       
+           
+           for(var i = 0; i < array.length; i++)
+           {
+               // create a new row
+               var newRow = table.insertRow(table.length);
+               for(var j = 0; j < array[i].length; j++)
+               {
+                   // create a new cell
+                   var cell = newRow.insertCell(j);
+                   
+                   // add value to the cell
+                   cell.innerHTML = array[i][j];
+               }
+		   }
+		   
+
+
+		   function searchTable() {
+              var input, filter, table, tr, td, i;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              table = document.getElementById("table");
+              tr = table.getElementsByTagName("tr");
+              for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[0];
+              if (td) {
+                if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+             } else {
+                  tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+        </script>
+				
+
+
+
+
+		</div>
+		</div>	
+		
+		
+	           
+				<aside id="sidebar">
+                    <p>Reminder,continuous taking medical leave might result in pay cut. If your are found to be malingering,action will be taken and can result to termination. Qwerty Pte Ltd reserve the right to approve or deny any medical leave.</p>
+				</aside>
+				
+		
+
+				<footer id="main-footer">
+						<p>work in progress</p>
+					</footer>
+
+		

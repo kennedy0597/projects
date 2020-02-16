@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave system</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>QWERTY INTERNATIONAL PTE LTD </h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="SupervisorLogin.html">Home</a></li>
+				<li><a href="notification.html">Notifications</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+
+
+	<div class="container">
+	  <section id="cliniclist1">
+		  <h1>Northside</h1>
+		  <ul>
+			  <li>AM PM Family Clinic & Surgery
+					123 Toa Payoh Lorong 1
+					01-521 
+					Singapore 310123
+					Tel No: 62530917</li>
+			  <li>125 Toa Payoh Lorong 1
+					01-537 
+					Singapore 310125
+					Tel No: 62514438</li>
+			
+		  </ul>
+
+		  <h1>Westside</h1>
+		  <ul>
+			  <li>Chiam Clinic
+					111 Toa Payoh Lorong 1
+					01-350 
+					Singapore 310111
+					Tel No: 62515359</li>
+		
+		  </ul>
+
+        </section>
+        <section id="cliniclist1">
+			<h1>Centralside</h1>
+			<ul>
+				<li>Chiam Clinic
+						111 Toa Payoh Lorong 1
+						01-350 
+						Singapore 310111
+						Tel No: 62515359</li>
+				<li>Chiam Clinic
+						111 Toa Payoh Lorong 1
+						01-350 
+						Singapore 310111
+						Tel No: 62515359</li>
+		
+			</ul>
+
+			<h1>Eastside</h1>
+			<ul>
+				<li>Chiam Clinic
+						111 Toa Payoh Lorong 1
+						01-350 
+						Singapore 310111
+						Tel No: 62515359</li>
+				<li>Chiam Clinic
+						111 Toa Payoh Lorong 1
+						01-350 
+						Singapore 310111
+						Tel No: 62515359</li>
+			
+			</ul>
+  
+
+
+
+         </section>
+	
+	
+	
+	
+	</div>
+    
+	
+
+<div id="map" style="width:600px;height:600px;background:yellow"></div>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+</head> 
+<body>
+  <div id="map" style="width: 500px; height: 400px;"></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['clinic1', 1.3271421, 103.8426716, 4],
+      ['Clinic2', 1.3117858,103.8594093, 5],
+      ['Clinic3', 1.3238241,103.8550976, 3],
+      ['Clinic4', 1.3370705,103.8479525, 2],
+      ['Clinic5', 1.3370705,103.8479526, 1]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 13,
+      center: new google.maps.LatLng(1.3039292,103.8823797),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+
+
+
+
+	<footer id="main-footer">
+		<p>work in progress</p>
+	</footer>
+    
+	</body>
+	</html>
+	
+	

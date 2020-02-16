@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave system</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>QWERTY INTERNATIONAL PTE LTD </h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>MEDICAL LEAVE APPLICATION SYSTEM
+			</h1>
+			<img class="img1" src="images/doctor.jpg">
+		</div>
+	</section>
+
+	<div class="container">
+		<section id="main">
+			<h1>Welcome to Qwerty medical application system</h1>
+			
+		</section>
+		<aside id="sidebar">
+			<form class="loginpage">
+				<div class=logindetails>
+				 <label>Username: </label>
+				 <input type="text" name="login" id="login"required>
+				 </div>
+				 <div class=logindetails>
+						<label>Password: </label>
+						<input type="password" name="Password" id="password" required>
+				 </div>
+				 
+				
+				 <input class="loginbutton" type="button" value="Login"  onclick="javascript:validate()">
+				 <a href="#">Forgot password?</a>
+			</form>
+		</aside>
+	</div>
+
+	<script type="text/javascript">
+		function validate()
+		{
+			if(   document.getElementById("login").value == "admin"
+			   && document.getElementById("password").value == "123" )
+			{
+				alert( "WELCOME" );
+				location.href="SupervisorLogin.html";
+			}
+			else
+			{
+				alert( "LOGIN FAIL" );
+				location.href="index.html";
+			}
+		}
+		</script>
+
+	<footer id="main-footer">
+		<p>work in progress</p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave system</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>QWERTY INTERNATIONAL PTE LTD </h1>
+		</div>
+	</header>
+
+	<nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="SupervisorLogin.html">Home</a></li>
+				<li><a href="notification.html">Notifications</a></li>
+				
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+    </nav>
+    <section id="showcase">
+            <div class="container">
+                <h1>Your notifications
+                </h1>
+              
+            </div>
+        </section>
+
+        <section id="notifications">
+            <table id="notifi">
+                      <tr>
+                        <th style="width:20%;">Date</th>
+                        <th style="width:20%;">Name</th>
+                        <th style="width:20%;">Message</th>
+                        <th style="width:20%;">acknowledgement</th>
+                     </tr>
+                     <tr>
+                         <td>010115</td>
+                         <td>Bobby</td>
+                         <td><button onclick="showmsg()">Show/hide</button><p id="msg1" style="display:none;">Will not be able to attend today's 3pm meeting. Please find replacement for me. Thanks</p></td>
+                         <td><input type="submit" value="Acknowledge" onclick="deleteRow(this)"></t>
+                     </tr>
+                     <tr>
+                            <td>010115</td>
+                            <td>Kumar</td>
+                            <td><button onclick="showmsg1()">Show/hide</button><p id="msg2" style="display:none;">Will not be able to attend conference call at 12pm today, please ask Joe to go in my behalf.Thanks.</p></td>
+                            <td><input type="submit" value="Acknowledge" onclick="deleteRow(this)"></t>
+                        </tr>
+                      
+            </table>              
+        </section>
+
+
+<script> 
+
+function deleteRow(r) {
+        var i = r.parentNode.parentNode.rowIndex;
+        document.getElementById("notifi").deleteRow(i);
+        alert("Acknowledged")
+    }
+
+    
+    function showmsg() {
+                 var x = document.getElementById("msg1");
+                 if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                 x.style.display = "none";
+                  }
+                }
+  function showmsg1() {
+                 var x = document.getElementById("msg2");
+                 if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                 x.style.display = "none";
+                  }
+                }              
+    
+    
+    
+    
+    
+    
+</script>
+
+    
+<footer id="main-footer">
+        <p>work in progress</p>
+    </footer>
+    </body>
+    </html>
