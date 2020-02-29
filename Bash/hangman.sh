@@ -14,10 +14,14 @@ read guess1
 try=5
 word=python
 guess=------
-if [[ $word == *$guess1* ]]; then
-  echo "correct guess"
-  echo $guess
-else 
-  echo wrong
-  $(($try - 1))
+if $try != 0; then
+  if [[ $word == *$guess1* ]]; then
+    echo "correct guess"
+    echo $guess | sed -r 's/[-]+/'$guess1'/g' 
+  else 
+    echo wrong
+    echo "$(($try - 1)) tries left" 
+  fi
+else
+  echo "no more tries"
 fi
