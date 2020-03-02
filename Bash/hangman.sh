@@ -54,7 +54,7 @@ read guess1
     guess7="$(echo $guess | sed s/./$guess1/6)"
     guess=$guess7
     continue
-  elif [[ $guess = $word ]]; then
+  elif [[ $guess = $word1 ]]; then
     echo "Congratulatios, you guessed correctly with $try tries left"
     break 
   else
@@ -66,7 +66,6 @@ read guess1
 done
 }
 try=5
-word=python
 guess=------
 
 get_word
