@@ -55,7 +55,7 @@ read guess1
     guess=$guess7
     continue
   elif [[ $guess = $word1 ]]; then
-    echo "Congratulatios, you guessed correctly with $try tries left"
+    echo "Congratulations, you guessed correctly with $try tries left"
     break 
   else
     echo wrong
