@@ -1,0 +1,7 @@
+Get Word
+max try 5
+let x = " "
+if try != 0
+  read guess
+  if guess is in Word
+  rep 
