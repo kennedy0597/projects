@@ -38,3 +38,4 @@ print(sort1)
 excel_data2 = pd.DataFrame(excel_data, columns=["company", "average-mileage"])
 avg1 = excel_data2.groupby('company').mean()
 print(avg1)
+
