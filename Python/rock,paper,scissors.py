@@ -1,34 +1,50 @@
 from random import randint
 
-v = ["rock", "paper", "scissors"]
 
-Computer = v[randint(0,2)]
-
-player = False
-
-while player == False:
-    player = input("rock, paper, scissors? ")
-    if player == Computer:
-        print("Draw")
-    elif player == "rock":
-        if Computer == "paper":
-            print("You lose")
-        elif Computer == "scissors":
-            print("You win")
-    elif player == "paper":
-        if Computer == "rock":
-            print("You win")
-        elif Computer == "scissors":
-            print("You lose")
-    elif player == "scissors":
-        if Computer == "rock":
-            print("You lose")
-        elif Computer == "paper":
-            print("You win")
+def continueorquit():
+    cont = input("Continue or quit? ")
+    if cont == "cont":
+        main()
+    elif cont == "quit":
+        quit()
     else:
-        print("Wrong input, please check your spelling")
+        print("wrong input")
+
+
+def main():
     player = False
-    Computer = v[randint(0, 2)]
+    while player is False:
+        player = input("rock, paper, scissors? ")
+        if player == "quit":
+            quit()
+        player2 = input("rock, paper, scissors? ")
+        if player == player2:
+            print("Draw")
+            continueorquit()
+        elif player == "rock":
+            if player2 == "paper":
+                print("Player2 win")
+                continueorquit()
+            elif player2 == "scissors":
+                print("Player1 win")
+                continueorquit()
+        elif player == "paper":
+            if player2 == "rock":
+                print("Player1 win")
+                continueorquit()
+            elif player2 == "scissors":
+                print("Player2 win")
+                continueorquit()
+        elif player == "scissors":
+            if player2 == "rock":
+                print("Player2 win")
+                continueorquit()
+            elif player2 == "paper":
+                print("Player1 win")
+                continueorquit()
+        else:
+            print("Wrong input, please check your spelling")
+            continueorquit()
 
 
-
+main()

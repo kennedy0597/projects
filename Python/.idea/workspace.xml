@@ -1,137 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dbf1672-679d-4fa3-b1ca-ac0778838fd3" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3dbf1672-679d-4fa3-b1ca-ac0778838fd3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bash/hangman.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Bash/hangman.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rock,paper,scissors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/while_loop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/venv/asd.txt" />
-        <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/numbers.py" />
-        <option value="$PROJECT_DIR$/venv/question.py" />
-        <option value="$PROJECT_DIR$/question.py" />
-        <option value="$PROJECT_DIR$/Django/index.html" />
-        <option value="$PROJECT_DIR$/rock,paper,scissors.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1804" />
-    <option name="y" value="529" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
+  <component name="ProjectId" id="1ZsAiCuWRAXVkVmQEt2onbVPeJx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.rock,paper,scissors">
-    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ex8Excel">
+    <configuration name="dict1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +47,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex8Excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\new\while_loop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex8Excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rock,paper,scissors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="listcompare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rock,paper,scissors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listcompare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rock,paper,scissors" />
-        <item itemvalue="Python.question" />
-        <item itemvalue="Python.numbers" />
-        <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.ex8Excel" />
+        <item itemvalue="Python.graphs" />
+        <item itemvalue="Python.excel" />
+        <item itemvalue="Python.dict1" />
+        <item itemvalue="Python.listcompare" />
       </list>
     </recent_temporary>
   </component>
@@ -259,72 +163,54 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-1374" y="311" width="1382" height="784" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33794162" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917964" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/asd.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py" />
-    <entry file="file://$PROJECT_DIR$/venv/question.py" />
-    <entry file="file://$PROJECT_DIR$/rock,paper,scissors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1585617633169">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585617633169" />
+    <state width="1093" height="14" key="GridCell.Tab.0.bottom" timestamp="1585713806278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1093" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585713806278" />
+    <state width="1093" height="14" key="GridCell.Tab.0.center" timestamp="1585713806278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1093" height="14" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585713806278" />
+    <state width="1093" height="14" key="GridCell.Tab.0.left" timestamp="1585713806278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1093" height="14" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585713806278" />
+    <state width="1093" height="14" key="GridCell.Tab.0.right" timestamp="1585713806278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1093" height="14" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585713806278" />
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1585667573896">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585667573896" />
+    <state width="1362" height="328" key="GridCell.Tab.1.center" timestamp="1585667573895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.center/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585667573895" />
+    <state width="1362" height="328" key="GridCell.Tab.1.left" timestamp="1585667573895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.left/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585667573895" />
+    <state width="1362" height="328" key="GridCell.Tab.1.right" timestamp="1585667573895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585667573895" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1585617661987">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585617661987" />
+    <state x="661" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585702443382">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585702443382" />
+    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1585620802083">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585620802083" />
   </component>
 </project>
