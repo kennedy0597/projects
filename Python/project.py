@@ -38,10 +38,11 @@ df.to_excel(writer, sheet_name="birthdays")
 writer.save()
 
 # question 3
-q2dict = {4: months.count(4), 5: months.count(5), 6: months.count(6)}
-
-keys = q2dict.keys()
-values = q2dict.values()
-plt.bar(keys, values)
+keys = monthdict.keys()
+values = monthdict.values()
+plt.bar(keys, values, color='g', width=0.5)
+plt.xlabel("Month")
+plt.ylabel("Count")
+plt.title("Birthday count per month")
 plt.show()
 
