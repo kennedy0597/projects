@@ -16,7 +16,12 @@ print(df1)
 print(df2)
 print(df3)
 
-#### question 5 #######
+#### part 4 ######
+
+dfclean = df.drop(columns=["Photo", "Flag"])
+print(dfclean)
+
+#### part 5 #######
 # aggregate function 1, find number of players in each club
 count1 = df2.value_counts()
 print(count1)
@@ -43,3 +48,19 @@ print(avg1)
 
 
 # Question 6
+sort1 = excel_data.sort_values(['Club'], ascending=False)
+print(sort1)
+
+sort2 = excel_data.sort_values(['Wage'], ascending=False)
+print(sort2)
+
+# part 7
+groupby1 = excel_data.sort_values(['Nationality'], ascending=False)
+print(groupby1)
+
+# part 8
+excel_data2 = pd.DataFrame(excel_data, columns=["Age", "Potential"])
+avg1 = excel_data2.groupby('Age').mean()
+print(avg1)
+
+# part 9

@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 a_dict = {"testerino": "05/08/1994",
           "peperino": "02/07/1993",
@@ -8,8 +10,8 @@ a_dict = {"testerino": "05/08/1994",
           "bobby": "12/09/1994",
           "kumar": "03/02/1996",
           "ahbeng": "09/08/1992",
-          "ahseng": "04/12/1993",
-          "ahleng": "04/03/1999",
+          "ahseng": "04/05/1993",
+          "ahleng": "04/06/1999",
           "ahsiao": "05/07/1991"}
 
 # name = input("Enter name: ")
@@ -21,17 +23,25 @@ for i in a_dict:
     birthday = (a_dict[i].split("/"))
     getmonth = birthday[1]
     month = int(getmonth)
-    months.append((month))
+    months.append(month)
     a_dict[i] = [birthdate, month]
 
-samemonth = set()
-months.sort()
-for month1 in months:
-    if month1 not in samemonth:
-        print("the count for month", month1, "is", months.count(month1))
-        samemonth.add(month1)
+monthdict = {1: months.count(1), 2: months.count(2), 3: months.count(3), 4: months.count(4), 5: months.count(5), 6: months.count(6),
+             7: months.count(7), 8: months.count(8), 9: months.count(9), 10: months.count(10), 11: months.count(11), 12: months.count(12)}
+
+for x in monthdict:
+    print(" the count of month", x, "is", monthdict[x])
 
 df = pd.DataFrame(a_dict)
 writer = pd.ExcelWriter('players.xlsx', engine="xlsxwriter")
 df.to_excel(writer, sheet_name="birthdays")
 writer.save()
+
+# question 3
+q2dict = {4: months.count(4), 5: months.count(5), 6: months.count(6)}
+
+keys = q2dict.keys()
+values = q2dict.values()
+plt.bar(keys, values)
+plt.show()
+

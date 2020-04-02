@@ -33,28 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.multi2">
-    <configuration name="countdownapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="new" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countdownapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.project2">
     <configuration name="multi1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="osadmin3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +109,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/osadmin3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.project2" />
+        <item itemvalue="Python.project" />
         <item itemvalue="Python.multi2" />
         <item itemvalue="Python.multi1 (1)" />
         <item itemvalue="Python.multi1" />
-        <item itemvalue="Python.countdownapp" />
-        <item itemvalue="Python.osadmin3" />
       </list>
     </recent_temporary>
   </component>
@@ -171,30 +171,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585617633169" />
-    <state width="936" height="262" key="GridCell.Tab.0.bottom" timestamp="1585801097307">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1276" height="256" key="GridCell.Tab.0.bottom" timestamp="1585819477086">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1345" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.319.1366.768@-1366.319.1366.768" timestamp="1585752001205" />
     <state width="936" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585801097307" />
-    <state width="1276" height="256" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585748360918" />
-    <state width="936" height="262" key="GridCell.Tab.0.center" timestamp="1585801097307">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1276" height="256" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585819477086" />
+    <state width="1276" height="256" key="GridCell.Tab.0.center" timestamp="1585819477086">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1345" height="464" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.319.1366.768@-1366.319.1366.768" timestamp="1585752001205" />
     <state width="936" height="262" key="GridCell.Tab.0.center/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585801097307" />
-    <state width="1276" height="256" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585748360917" />
-    <state width="936" height="262" key="GridCell.Tab.0.left" timestamp="1585801097307">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1276" height="256" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585819477086" />
+    <state width="1276" height="256" key="GridCell.Tab.0.left" timestamp="1585819477086">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1345" height="464" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.319.1366.768@-1366.319.1366.768" timestamp="1585752001205" />
     <state width="936" height="262" key="GridCell.Tab.0.left/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585801097307" />
-    <state width="1276" height="256" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585748360917" />
-    <state width="936" height="262" key="GridCell.Tab.0.right" timestamp="1585801097307">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1276" height="256" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585819477086" />
+    <state width="1276" height="256" key="GridCell.Tab.0.right" timestamp="1585819477086">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1345" height="464" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.319.1366.768@-1366.319.1366.768" timestamp="1585752001205" />
     <state width="936" height="262" key="GridCell.Tab.0.right/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585801097307" />
-    <state width="1276" height="256" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585748360918" />
+    <state width="1276" height="256" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585819477086" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1585667573896">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -211,24 +211,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585667573895" />
-    <state x="-1075" y="330" key="SettingsEditor" timestamp="1585751956915">
-      <screen x="-1366" y="319" width="1366" height="768" />
+    <state x="344" y="38" key="SettingsEditor" timestamp="1585805831661">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="-1075" y="330" key="SettingsEditor/0.0.1920.1080/-1366.319.1366.768@-1366.319.1366.768" timestamp="1585751956915" />
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585617661987" />
-    <state x="344" y="38" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1585715105266" />
-    <state x="514" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1585719470871">
+    <state x="344" y="38" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1585805831661" />
+    <state x="514" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1585807001311">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="661" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585702443382" />
-    <state x="514" y="277" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585719470871" />
+    <state x="514" y="277" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585807001311" />
     <state x="826" y="27" width="432" height="723" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585724193232">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="826" y="27" width="432" height="723" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1585724193232" />
-    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1585620802083">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="164" y="192" width="672" height="466" key="search.everywhere.popup" timestamp="1585813135254">
+      <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="143" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1366.319.1366.768@0.0.1920.1080" timestamp="1585620802083" />
+    <state x="164" y="192" width="672" height="466" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1585813135254" />
   </component>
 </project>
