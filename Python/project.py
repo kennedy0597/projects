@@ -24,9 +24,6 @@ for i in a_dict:
     months.append((month))
     a_dict[i] = [birthdate, month]
 
-
-
-
 samemonth = set()
 months.sort()
 for month1 in months:
