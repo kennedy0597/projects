@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+# question 1
 a_dict = {"testerino": "05/08/1994",
           "peperino": "02/07/1993",
           "qwerty": "02/07/1991",
@@ -14,9 +14,10 @@ a_dict = {"testerino": "05/08/1994",
           "ahleng": "04/06/1999",
           "ahsiao": "05/07/1991"}
 
-# name = input("Enter name: ")
-# print(a_dict[name])
+name = input("Enter name: ")
+print(a_dict[name])
 
+# Part 2
 months = []
 for i in a_dict:
     birthdate = (a_dict[i])

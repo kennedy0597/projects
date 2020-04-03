@@ -1,11 +1,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import pygal
+import plotly.io as pio
+
+### question 4 ####
 #### Part 1 ####
 
 excel_file = "CompleteDataset.csv"
 excel_data = pd.read_csv(excel_file)
 df = pd.DataFrame(excel_data)
+
+#### Part 2 and Part 3 #######
 df1 = df['Name']
 df2 = df['Club']
 df3 = df['Wage']
@@ -26,7 +31,7 @@ print(df)
 
 #### part 4 ######
 
-dfclean = df.drop(columns=["Photo", "Flag"])
+dfclean = df.drop(columns=["Photo", "Flag", "Dribbling"])
 print(dfclean)
 
 #### part 5 #######
@@ -87,3 +92,49 @@ print(dfnation)
 plt.bar(xvalue1, dfnation)
 plt.show()
 
+# graph 3
+age2 = pd.DataFrame(df, columns=["Age", "Name"])
+age2 = age2.groupby('Age').count()
+
+gr2 = pygal.Bar(title="Player count per age", y_title="Count")
+gr2.x_labels = range(16, 50)
+for x in age2:
+    gr2.add(x, age2[x])
+
+gr2.render_in_browser()
+
+# graph 4
+clubs1 = pd.DataFrame(df, columns=["Nationality", "Club"])
+clubscount = clubs1.groupby('Nationality').count()
+countrylist = df["Nationality"].unique()
+countrylist = sorted(countrylist)
+xvalue1 = []
+for y in countrylist:
+     xvalue1.append(y)
+
+gr2 = pygal.Bar(title="Count of clubs per country")
+gr2.x_labels = xvalue1
+
+for x in clubscount:
+    gr2.add(x, clubscount[x])
+
+gr2.render_in_browser()
+
+# graph 5
+data = [dict(
+  type = 'scatter',
+  x = excel_data['Club'],
+  y = excel_data['Overall'],
+  mode = 'markers',
+  transforms = [dict(
+    type = 'aggregate',
+    groups = excel_data['Club'],
+    aggregations = [dict(
+        target = 'y', func = 'avg', enabled = True),
+    ]
+  )]
+)]
+
+fig_dict = dict(data=data)
+
+pio.show(fig_dict, validate=False)
