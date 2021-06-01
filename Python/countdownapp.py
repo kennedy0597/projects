@@ -19,3 +19,4 @@ while timeleft>0:
        csv1 = subprocess.Popen(["start","Automobile_data"], shell=True)
        print(csv1.communicate())
     timeleft = timeleft - 1
+Print(x)
